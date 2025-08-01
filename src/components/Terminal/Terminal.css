@@ -1,0 +1,43 @@
+/* Terminal.css */
+.terminal-container {
+  flex: 1;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #00ff00;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  padding: 12px;
+  line-height: 1.6;
+  scrollbar-width: thin;
+  scrollbar-color: #00ff00 #111;
+  border-top: 1px solid #00ff00;
+  border-bottom: 1px solid #00ff00;
+  max-height: 90vh; /* Make sure it doesn't overflow its parent */
+}
+
+
+.terminal-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.terminal-container::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.terminal-container::-webkit-scrollbar-thumb {
+  background-color: #00ff00;
+  border-radius: 10px;
+}
+
+.terminal-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.terminal-container::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.terminal-container::-webkit-scrollbar-thumb {
+  background-color: #00ff00;
+  border-radius: 10px;
+}

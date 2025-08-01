@@ -1,0 +1,31 @@
+/* TerminalLine.css  */
+.terminal-line {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 0;
+}
+
+.prompt {
+  color: #00ffff;
+  margin-right: 6px;
+}
+
+.command {
+  color: #ffffff;
+}
+
+.output {
+  color: #00ff00;
+}
+
+.success {
+  color: #00ff88;
+}
+
+.error {
+  color: #ff4d4d;
+}
+
+.warning {
+  color: #ffaa00;
+}

@@ -1,0 +1,55 @@
+/* TerminalInput.css  */
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border-top: 1px solid #00ff00;
+  padding: 15px 20px;
+  z-index: 10;
+  height: 60px;
+  flex-shrink: 0; /* Important: prevent it from shrinking when terminal grows */
+}
+
+
+
+.prompt {
+  color: #00aaff;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.terminal-input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #00ff00;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  outline: none;
+}
+
+.terminal-input::placeholder {
+  color: #008800;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 18px;
+  background-color: #00ff00;
+  animation: blink 1s infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
